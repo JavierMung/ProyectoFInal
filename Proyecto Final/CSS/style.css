@@ -1,0 +1,179 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	
+}
+.flexbox-container{
+	overflow: hidden;
+	background: #fff;
+}
+
+.cajas_info_escuela{
+	display: flex;
+	justify-content: center; /*ALINEADO HORIZONTAL*/
+	align-items: center; /*ALINEADO VERTICAL*/
+
+	
+}
+
+.caja_escuela{
+	position: fixed;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: #fff;
+	-webkit-box-shadow: 0px 9px 18px -2px #000000; 
+	box-shadow: 0px .1px 10px -6px #000000;
+}
+.caja_escuela div{
+	font-size: 32px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: #001B48;
+}
+.qw{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+#ipn{
+
+	width: 50px;
+	height: 50px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Logo_Instituto_Polit%C3%A9cnico_Nacional.png/1200px-Logo_Instituto_Polit%C3%A9cnico_Nacional.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+#escom{
+
+	width: 50px;
+	height: 50px;
+	background-image: url(http://escom.ipn.mx/images/logoESCOM2x.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.blank{
+	height: 150px;
+}
+
+.caja_encabezado{
+	margin-top: 50px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+
+#box_sum{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.imgen_sum{
+	width: 500px;
+	height: 300px;
+	background-image:url("subset_sum.jpeg");
+	background-size: cover;
+	-webkit-box-shadow: 0px 0px 24px -4px #000000; 
+	box-shadow: 0px 0px 24px -4px #000000;
+}
+
+#tit{
+	margin-top: 20px;
+}
+.titulo{
+
+	color:#018ABE;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+.descripcion{
+	padding: 40px;
+	margin-top: 20px;
+	font-family: 'Quicksand', sans-serif;
+	width: 900px;
+	height: 100px;
+}
+
+.cuerpo{
+	padding: 50px;
+}
+.propuestas{
+	color:#018ABE;
+	font-size: 35px;
+	font-weight: 700;
+}
+.caja_propuestas{
+	padding: 20px;
+	margin-top: 40px;
+	font-size: 24px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+
+.linea{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.caja_propuesta_text{
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.caja_prupuesta{
+	margin-bottom: 50px;
+}
+
+
+.caja_imagen{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#imagen{
+	width: 200px;
+	height: 100px;
+	background-image: url("https://i1.wp.com/unaaldia.hispasec.com/wp-content/uploads/2021/04/github.png?fit=1150%2C465&ssl=1");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.box{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ver_mas{
+	font-size: 15px;
+	width: 100px;
+	border: 1px solid #018ABE;
+	border-radius: 20px;
+}
+.box-foot{
+	background: #001B48;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer{
+	height: 50px;
+	
+	color: #fff;
+}
